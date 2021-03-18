@@ -11,4 +11,18 @@ const random = arr => {
     return randomNumber;
 }
 
+// Function to generate a new mixed message
+const newMixedMessage = mixedMessage => {
+    let adjectiveOptions = ['amazing','horrible','terrifying','horrifying','crazy','exhilarating','agonizing','maginificent','glamorous','interesting']​;
+
+    let animal1Options = ['lion','tiger','bear','mountain lion','snow leaopard','polar bear','black bear','brown bear','cobra','puma']​;
+
+    let place1Options = ​['Jungle Odyssey','Aquarium','Kids Kingdom','Tropical Forest','Visitor Center']​;
+
+    let place2Options = ​['Forest Passage','African Savanna','Water\'s Edge','Village Market','Safari Plaza']​;
+
+    let animal2Options = ​['bald eagles','goats','zebras','parrots','donkeys','prairie dog','bats','toucans','hawks','alpacas'];
+
+
+}
 
