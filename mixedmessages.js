@@ -1,6 +1,6 @@
 /* The Mixed Messages Portfolio project is part of Codecademy's Full Stack Engineer course. The objective of this project is to build a message generator program using Javascript.
 
-For this project I chose to create a mixed message based on a trip to the zoo (pre-covid). The message will read: "My day at the zoo was $[adjective}! There was [a/an] ${animal1} at the ${place1} which caused everyone to panic. When we got to the ${place2} there were ${animal2} [flying/running] around everywhere! We barely made it out of the park!" */
+For this project I chose to create a mixed message based on a trip to the zoo (pre-covid). The message will read: "My day at the zoo was $[adjective}! There was [a/an] ${animal1} at the ${place1} which caused everyone to panic. When we got to the ${place2} there were ${animal2} everywhere! We barely made it out of the park!" */
 
 const newMixedMessage = () => {
 
@@ -51,11 +51,8 @@ const newMixedMessage = () => {
             article = "a";
     }
     
-    // Generate the appropriate verb
-    let verb = 'flying';
-
     // Establish mixed message
-    let mixedMessage = `My day at the zoo was ${adjective}! There was ${article} ${animal1} at the ${place1} which caused everyone to panic. When we got to the ${place2}, there were ${animal2} ${verb} around everywhere! We barely made it out of the park!`;
+    let mixedMessage = `My day at the zoo was ${adjective}! There was ${article} ${animal1} at the ${place1} which caused everyone to panic. When we got to the ${place2}, there were ${animal2} everywhere! We barely made it out of the park!`;
 
     return mixedMessage;
 }
